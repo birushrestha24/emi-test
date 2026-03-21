@@ -1,0 +1,25 @@
+{
+  "name": "emi-calculator-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation suite for EMI Calculator (https://emicalculator.net/)",
+  "scripts": {
+    "test":              "playwright test",
+    "test:headed":       "playwright test --headed",
+    "test:chromium":     "playwright test --project=chromium",
+    "test:firefox":      "playwright test --project=firefox",
+    "test:webkit":       "playwright test --project=webkit",
+    "test:smoke":        "playwright test --grep @smoke",
+    "test:regression":   "playwright test --grep @regression",
+    "test:functional":   "playwright test tests/functional/",
+    "test:slider":       "playwright test tests/slider/",
+    "test:amortization": "playwright test tests/amortization/",
+    "test:download":     "playwright test tests/download/",
+    "test:negative":     "playwright test tests/negative/",
+    "report":            "playwright show-report",
+    "lint":              "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
+  }
+}

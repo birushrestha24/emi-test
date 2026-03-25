@@ -2,8 +2,6 @@
 
 > **Application Under Test:** [https://emicalculator.net/](https://emicalculator.net/)
 > **Framework:** Playwright · TypeScript · Page Object Model
-> **Author:** Lead QA Engineer (8+ yrs)
-
 ---
 
 ## 📁 Project Structure
